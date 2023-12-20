@@ -1,0 +1,90 @@
+.mainContainer {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insideContainer {
+  width: 85%;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.inputContainer {
+}
+.mainHeading {
+  color: #171f46;
+}
+.title {
+  color: #b5b7c4;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.inputTitle {
+  padding: 4px;
+  margin-bottom: 8px;
+  margin-top: 5px;
+  width: 100%;
+}
+.inputDate {
+  padding: 4px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  width: 100%;
+}
+.appointmentsImg {
+  width: 380px;
+  height: 230px;
+}
+.addButton {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  width: 40px;
+  border-radius: 8px;
+  height: 25px;
+  border: 0 none;
+  outline: none;
+  cursor: pointer;
+}
+.separator {
+  border: 1px solid #b5b7c4;
+  width: 92%;
+  margin-bottom: 8px;
+}
+.starContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.bottomHeading {
+  color: #000000;
+  font-size: 25px;
+}
+.startButton {
+  width: 65px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid #9897f0;
+  background-color: #ffffff;
+  color: #9897f0;
+}
+.unordered {
+  display: flex;
+  flex-wrap: wrap;
+}
+.secondStarButton {
+  background-color: #9897f0;
+  color: #ffffff;
+}
